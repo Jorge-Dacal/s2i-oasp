@@ -20,7 +20,7 @@ echo "---> Building sources ..."
 export npm_config_tmp=/tmp
 yarn install
 # original: yarn build:$BUILD_TARGET
-yarn build:buildnoaot
+yarn buildnoaot
 
 echo "---> Moving sources ..."
 cp -ad $LOCAL_SOURCE_DIR/$ARTIFACT_DIR/* $TARGET_SOURCE_DIR
