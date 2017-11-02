@@ -33,7 +33,7 @@
         "source": {
           "type": "Git",
           "git": {
-            "uri": "https://github.com/mickuehl/s2i-oasp.git",
+            "uri": "https://github.com/Jorge-Dacal/s2i-oasp.git",
             "ref": "master"
           }
         },
@@ -67,7 +67,7 @@
               "iconClass": "icon-nodejs",
               "tags": "builder,oasp,microservices,javascript,angular",
               "supports": "oasp:2.4",
-              "sampleRepo": "https://github.com/mickuehl/s2i-oasp.git",
+              "sampleRepo": "https://github.com/Jorge-Dacal/s2i-oasp.git",
               "version": "1.0"
             }
           }
