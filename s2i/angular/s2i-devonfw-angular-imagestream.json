@@ -2,14 +2,14 @@
   "kind": "List",
   "apiVersion": "v1",
   "metadata": {
-    "name": "s2i-oasp-angular"
+    "name": "s2i-devonfw-angular"
   },
   "items": [
     {
       "kind": "BuildConfig",
       "apiVersion": "v1",
       "metadata": {
-        "name": "s2i-oasp-angular"
+        "name": "s2i-devonfw-angular"
       },
       "spec": {
         "triggers": [
@@ -46,7 +46,7 @@
         "output": {
           "to": {
             "kind": "ImageStreamTag",
-            "name": "s2i-oasp-angular:latest"
+            "name": "s2i-devonfw-angular:latest"
           }
         },
         "resources": {}
@@ -56,7 +56,7 @@
       "kind": "ImageStream",
       "apiVersion": "v1",
       "metadata": {
-        "name": "s2i-oasp-angular"
+        "name": "s2i-devonfw-angular"
       },
       "spec": {
         "tags": [
@@ -65,7 +65,7 @@
             "annotations": {
               "description": "The Open Application Standard Platform S2I image",
               "iconClass": "icon-nodejs",
-              "tags": "builder,oasp,microservices,javascript,angular",
+              "tags": "builder,devonfw,microservices,javascript,angular",
               "supports": "oasp:2.4",
               "sampleRepo": "https://github.com/Jorge-Dacal/s2i-oasp.git",
               "version": "1.0"
