@@ -63,7 +63,7 @@
           {
             "name": "latest",
             "annotations": {
-              "description": "The DevonFW S2I image",
+              "description": "The DevonFW for Angular S2I image",
               "iconClass": "icon-nodejs",
               "tags": "builder,devonfw,microservices,javascript,angular",
               "supports": "oasp:2.4",
