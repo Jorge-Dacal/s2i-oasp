@@ -63,7 +63,7 @@
           {
             "name": "latest",
             "annotations": {
-              "description": "The Open Application Standard Platform for Java S2I image",
+              "description": "The DevonFW for Java S2I image",
               "iconClass": "icon-java",
               "tags": "builder,java,maven,springboot,devonfw,microservices,fatjar",
               "supports": "java:8,maven:3,oasp:2.4",
